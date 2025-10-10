@@ -72,3 +72,20 @@ html { scroll-behavior: smooth; }
 
 .btn { display: inline-block; border: 1px solid #e5e7eb; padding: .5rem .85rem; border-radius: .5rem; text-decoration: none; }
 .btn:hover, .btn:focus { background: #f8fafc; }
+
+/* === ADDED: site nav + hero (WPI-CS3043-M3GAN) === */
+:root { --accent: #cd539e; }
+
+.site-nav { display: flex; gap: 1.25rem; margin: 0 0 1.25rem; }
+.site-nav a { color: var(--accent); font-size: 20px; text-decoration: none; }
+.site-nav a[aria-current="page"] { font-weight: 700; text-decoration: underline; }
+
+.hero { margin: 1.75rem 0 1.5rem; }
+.hero-title { font-size: clamp(44px, 9vw, 84px); margin: 0; line-height: 1.05; }
+.hero-date { font-size: clamp(18px, 3.2vw, 28px); margin: .35rem 0 0; color: #4b5563; }
+.hero-byline { font-size: 14px; margin: .5rem 0 0; color: #6b7280; letter-spacing: .02em; text-transform: uppercase; }
+
+.section-title { font-size: clamp(22px, 3.2vw, 28px); margin: 1.5rem 0 .5rem; }
+
+.btn { display: inline-block; border: 1px solid #e5e7eb; padding: .5rem .85rem; border-radius: .5rem; text-decoration: none; }
+.btn:hover, .btn:focus { background: #f8fafc; }
