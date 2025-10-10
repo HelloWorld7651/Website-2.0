@@ -43,7 +43,11 @@ strong { font-weight: 700; }
 }
 .summary-card { padding: 16px 20px; }
 .summary-card p { margin: 0 0 1rem; line-height: 1.65; }
-.summary-media img { display: block; width: 100%; height: 100%; object-fit: cover; aspect-ratio: 4 / 3; }
+.summary-media { border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; } /* keep your card look */
+.summary-media img {
+  display: block;
+  width: 100%;
+  height: auto; }
 
 /* Lists */
 .authors { line-height: 1.7; }
